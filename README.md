@@ -6,3 +6,4 @@ The implementation of this project is based on some pseudo-codes and pieces of c
 Behavior:
 The program receives an image, like the example below, transforms the image to a gray scale and then discretizes the image into a matrix. The algorithm The star runs through this matrix looking for the optimal path, using the distance of the Pythagorean theorem as a heuristic function. After finding the final point, the program "recapitulates" the steps it took until it forms the shortest path between the two points on the map. 
 
+With the python library, called pygame, you can follow the progress of the algorithm through the screen that opens when the program is executed. The starting point appears in green, the end point in red, and the nodes that have been opened in blue. Upon completion of the algorithm, a yellow line is drawn showing the shortest path between the two points.
